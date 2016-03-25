@@ -1,0 +1,39 @@
+1. time-zone sync:
+  hwclock
+  timedatectl
+  ntpd -qg
+
+2. sound:
+  amxier
+  alsamixer
+  asoundconf
+  pulseaudio
+  pavucontrol
+
+3. shadowsocks:
+  shadowsocks-libev
+
+4. network&vpn:
+  network-manager-applet
+  networkmanager-pptp
+
+5. xsession:
+  /usr/share/xsessions
+
+6. input method:
+  fcitx
+  fcitx-configtool
+  fcitx-im
+  fcitx-sogoupinyin[AUR]
+
+7. lightdm customization
+  lightdm-gtk-greeter-settings
+  use dm-tool switch-to-greeter to test
+  put images into /usr/share/pixmaps and add read permissions for all
+
+8. add extract options to thunar
+  file-roller and recommand plugins
+  thunar-archive-plugin
+
+9. tear free for intel graphics
+  /etc/X11/xorg.conf.d/20-intel.conf
