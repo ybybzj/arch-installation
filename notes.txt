@@ -1,7 +1,7 @@
 1. time-zone sync:
-  hwclock
-  timedatectl
+  timedatectl set-timezone Asia/Shanghai
   ntpd -qg
+  hwclock --systohc
 
 2. sound:
   amxier
@@ -37,3 +37,20 @@
 
 9. tear free for intel graphics
   /etc/X11/xorg.conf.d/20-intel.conf
+
+10 fonts to install
+  adobe-source-code-pro-fonts
+  adobe-source-sans-pro-fonts
+  adobe-source-serif-pro-fonts
+  terminus-font
+  gnome-font-viewer
+  ttf-anonymous-pro
+  ttf-inconsolata
+  ttf-ubuntu-font-family
+  wqy-zenhei 
+
+11. theme to install
+  numix-themes
+  numix-themes-archblue-git
+  numix-icon-theme-git
+  numix-icon-shine-theme-git
