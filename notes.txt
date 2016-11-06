@@ -2,6 +2,8 @@ Arch Linux Chinese Community Repository
 
 https://github.com/archlinuxcn/repo
 
+Http proxy
+polipo
 
 1. time-zone sync:
   timedatectl set-timezone Asia/Shanghai
