@@ -38,6 +38,8 @@ polipo
   use dm-tool switch-to-greeter to test
   put images into /usr/share/pixmaps and add read permissions for all
 
+8. override gtk theme for firefox
+  widget.content.gtk-theme-override: Adapta-Maia
 8. add extract options to thunar
   file-roller and recommand plugins
   thunar-archive-plugin
