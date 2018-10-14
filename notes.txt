@@ -64,3 +64,10 @@ polipo
   
 12. override gtk theme for firefox
   widget.content.gtk-theme-override: Adapta-Maia
+  
+13. compton for intel video
+backend = "glx";
+glx-no-stencil = true;
+paint-on-overlay = true;
+vsync = "opengl-swc";
+
