@@ -33,6 +33,11 @@ polipo
   fcitx-im
   fcitx-sogoupinyin[AUR]
 
+  put these in ~/.pam_environment
+  GTK_IM_MODULE=fcitx
+  QT_IM_MODULE=fcitx
+  XMODIFIERS=@im=fcitx
+  
 7. lightdm customization
   lightdm-gtk-greeter-settings
   use dm-tool switch-to-greeter to test
